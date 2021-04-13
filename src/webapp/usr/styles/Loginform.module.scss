@@ -1,0 +1,159 @@
+.wrapper{
+  background-color: #f1f1f1;
+  height: 1080px;
+  margin: 0;
+  position: relative;
+}
+
+.LoginFont {
+  font-family:'Jeju Gothic', sans-serif;
+  font-size: larger;
+  font-weight: 550;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.login_form{
+  height: 100%;
+  max-width: 385px;
+  min-height: 100%;
+  padding: 0 15px 100px 15px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto;
+  background-color: white;
+}
+.login_header{
+  color: #000;
+  font-size: 12px;
+  font-family: "AppleSDGothicNeo", "Apple SD Gothic Neo","Apple SD 산돌고딕 Neo",sans-serif;
+  padding: 76px 0 60px 0;
+  height: 20px;
+  text-align: center;
+}
+.login_box{
+  color: #000;
+  font-size: 12px;
+  font-family: "AppleSDGothicNeo", "Apple SD Gothic Neo","Apple SD 산돌고딕 Neo",sans-serif;
+  & span{
+    padding: 0 10px 10px 10px;
+    display: block;
+  }
+  & ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 36px 0;
+  }
+  & input{
+    vertical-align: baseline;
+    border: 1px solid #ccc;
+    padding: 15px 10px 14px 10px;
+    height: 50px;
+    margin: 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 21px;
+    box-sizing: border-box;
+    text-indent: 3px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+  }
+  & .submit{
+    vertical-align: baseline;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    height: 60px;
+    line-height: 64px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  & .join{
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    margin: 4px 0 3px 0;
+  }
+  & .idsearch{
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+    padding: 0 17.5px 0 19.5px;
+    margin: 4px 18.5px 3px 25.5px;
+  }
+  & .pwsearch{
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    margin: 4px 0 3px 0;
+  }
+}
+.login_social{
+  margin: 30px 0 35px;
+  text-align: center;
+}
+.social_button{
+  appearance: none;
+  font-weight: 700;
+  font-family: inherit;
+  background-clip: padding-box;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  transition: background-color 0.2s ease 0s;
+  position: relative;
+  width: 100%;
+  text-align: left;
+  border: 2px solid rgb(0, 0, 0) !important;
+  border-radius: 28px !important;
+  margin-bottom: 16px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  box-shadow: none;
+  color: rgb(0, 0, 0);
+  height: 48px;
+  & .img{
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 18px;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    border: 0px;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    margin-left: 24px;
+  }
+  & .text{
+    font-family: inherit;
+    line-height: 18px;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    text-align: center !important;
+    margin: 0px 40px 0px 0px !important;
+    flex: 1 1 0%;
+    align-self: center;
+    text-overflow: clip;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: normal;
+  }
+  
+}

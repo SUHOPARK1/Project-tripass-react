@@ -1,0 +1,303 @@
+.kContent{
+    line-height: 1.5;
+    color: #000;
+    font-family: Apple SD Gothic Neo,sans-serif;
+    font-size: 15px;
+    letter-spacing: 0;
+    margin: auto;
+    padding: 0;
+    width: 800px;
+
+    & .comment{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        margin: 0;
+        margin-top: 10px;
+        border: 1px solid #eaeaea;
+        background: #fff;
+        padding: 35px 79px 25px;
+    }
+    
+    & .ahead_info{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        margin: 0;
+        overflow: hidden;
+        padding: 6px 0 0;
+    }
+    & .screen_out{
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        overflow: hidden;
+        position: absolute;
+        width: 0;
+        height: 0;
+        line-height: 0;
+        text-indent: -9999px;
+    }
+    & .grade_star{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        margin: 0;
+        padding: 0;
+    }
+    & .avg_rate{
+        color: #000;
+        font-style: normal;
+        font-weight: 400;
+        float: left;
+        height: 40px;
+        font-family: Arial,sans-serif;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 0;
+    }
+    & .num_rate{
+        color: #000;
+        font-style: normal;
+        font-weight: 400;
+        float: left;
+        height: 40px;
+        font-family: Arial,sans-serif;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: 0;
+    }
+
+    & .txt_score{
+        color: #000;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 0;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 26px;
+        line-height: 41px;
+    }
+    & .evaluation_review{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        margin: 0;
+        padding: 0;
+        padding-top: 14px;
+    }
+    & .screen_out{
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        overflow: hidden;
+        position: absolute;
+        width: 0;
+        height: 0;
+        line-height: 0;
+        text-indent: -9999px;
+    }
+    & .reivew_form{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        margin: 0;
+        list-style: none;
+        overflow: hidden;
+        position: relative;
+        min-height: 52px;
+        border-top: 1px solid #f2f2f2;
+        padding: 17px 0;
+    }
+    & .star_info{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        padding-right: 12px;
+    }
+    & .grade_star_size_s{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    & .num_rate{
+        color: #000;
+        list-style: none;
+        font-style: normal;
+        font-weight: 400;
+        float: left;
+        height: 16px;
+        padding: 0 6px;
+        font-family: Arial,sans-serif;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0;
+    }
+    & .screen_out{
+        color: #000;
+        list-style: none;
+        font-style: normal;
+        font-weight: 400;
+        font-family: Arial,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        overflow: hidden;
+        position: absolute;
+        width: 0;
+        height: 0;
+        line-height: 0;
+        text-indent: -9999px;
+    }
+    & .comment_info{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        list-style: none;
+        margin: 0;
+        overflow: hidden;
+        padding: 9px 12px 0 0;
+    }
+    & .txt_comment{
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        color: #444;
+        white-space: pre-wrap;
+        word-break: break-all;
+        line-height: 22px;
+    }
+    & .append_item{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        letter-spacing: 0;
+        list-style: none;
+        margin: 0;
+        overflow: hidden;
+        height: 22px;
+        padding: 6px 0 0 2px;
+        font-size: 13px;
+    }
+   
+    & .num_g{
+        list-style: none;
+        font-size: 13px;
+        color: #444;
+        font-family: Arial,sans-serif;
+        letter-spacing: 0;
+        height: 20px;
+        line-height: 19px;
+        display: none;
+    }
+     & .bg_bar{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        letter-spacing: 0;
+        list-style: none;
+        font-size: 13px;
+        display: inline-block;
+        width: 1px;
+        vertical-align: top;
+        text-indent: -9999px;
+        float: left;
+        height: 11px;
+        background: #e2e2e2;
+        margin: 4px 8px 0;
+    }
+
+    & .screen_out{
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        letter-spacing: 0;
+        list-style: none;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        overflow: hidden;
+        position: absolute;
+        width: 0;
+        height: 0;
+        line-height: 0;
+        text-indent: -9999px;
+    }
+
+    & .link_user{
+        line-height: 1.5;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        letter-spacing: 0;
+        list-style: none;
+        font-size: 13px;
+        text-decoration: none;
+        float: left;
+        color: #888;
+    } 
+    & .time_write{
+        list-style: none;
+        font-size: 13px;
+        float: left;
+        font-family: arial;
+        color: #888;
+        letter-spacing: 0;
+        line-height: 17px;
+    }
+    & .link_function{
+        line-height: 1.5;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        letter-spacing: 0;
+        list-style: none;
+        font-size: 13px;
+        text-decoration: none;
+        float: left;
+        color: #888;
+    }
+    & .starIcon{
+        width: 30px;
+    }
+    & .delete{
+        line-height: 1.5;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        letter-spacing: 0;
+        list-style: none;
+        font-size: 13px;
+        text-decoration: none;
+        float: left;
+        color: #888;
+        cursor: pointer;
+    }
+    & .liStyle{
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,253 @@
+.kContent{
+    line-height: 1.5;
+    color: #000;
+    font-family: Apple SD Gothic Neo,sans-serif;
+    font-size: 15px;
+    letter-spacing: 0;
+    margin: auto;
+    padding: 0;
+    width: 800px;
+
+    & .comment{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        margin: 0;
+        margin-top: 10px;
+        border: 1px solid #eaeaea;
+        background: #fff;
+        padding: 35px 79px 25px;
+    }
+    
+    & .evaluation_place{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        margin: 0;
+        padding: 0;
+        margin-top: 11px;
+        border: 1px solid #ddd;
+    }
+    & .commentUpdateForm{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        margin: 0;
+        padding: 0;
+    }
+    & .grade_star{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        margin: 0;
+        overflow: hidden;
+        padding: 19px 19px 20px;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 18px;
+        display: flex;
+    }
+    & .ico_star{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        display: block;
+        background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/ico_star_180723.png) no-repeat;
+        width: 151px;
+        background-position: 0 0;
+        float: left;
+        height: 27px;
+        margin-right: 4px;
+        cursor: pointer;
+
+    }
+    & .write_review{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        margin: 0;
+        height: 118px;
+        padding: 0;
+        position: relative;
+    }
+    & .fieldsetForm{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        margin: 0;
+        padding: 0;
+        border: 0 none;
+    }
+    & .ico_star_inner_star{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        cursor: pointer;
+        display: block;
+        background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/ico_star_180723.png) no-repeat;
+        height: 100%;
+        background-position: 0 -30px;
+        width: 0%;
+    }
+    & .num_rate{
+        line-height: 1.5;
+        color: #000;
+        font-style: normal;
+        font-weight: 400;
+        float: left;
+        height: 27px;
+        font-family: Arial,sans-serif;
+        font-size: 20px;
+        letter-spacing: 0;
+        margin: 15px 16px 15px 10px;
+    }
+    & .txt_word{
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        letter-spacing: 0;
+        float: left;
+        font-size: 20px;
+        line-height: 25px;
+        padding-top: 4px;
+        margin: 15px 16px 15px 0px;
+    }
+    & .txt_g{
+        line-height: 1.5;
+        color: #000;
+        font-style: normal;
+        font-weight: 400;
+        font-family: Arial,sans-serif;
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+    & .lab_review{
+        line-height: 1.5;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        color: #888;
+    }
+    & .contents{
+        margin: 0;
+        vertical-align: middle;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        overflow: visible;
+        width: 595px;
+        padding: 14px 23px 9px 20px;
+        border: 0 none;
+        color: #444;
+        resize: none;
+        -webkit-appearance: none;
+        height: 100px;
+        padding-bottom: 7px;
+        line-height: 23px;
+    }
+    &.tit_subject{
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        margin: 0;
+        padding: 10px 0 0;
+        height: 20px;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0;
+        overflow: hidden;
+    }
+    & .agree_review{
+        line-height: 1.5;
+        color: #000;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        margin: 0;
+        position: relative;
+        width: inherit;
+        height: 40px;
+        padding: 0 77px 0 20px;
+        border-top: 1px solid #e2e2e2;
+    }
+    & .num_letter_txt_len_warp{
+        color: #000;
+        float: right;
+        height: 15px;
+        padding: 13px 20px 0 0;
+        font-size: 13px;
+        font-family: Arial,sans-serif;
+        line-height: 15px;
+        letter-spacing: 0;
+    }
+    & .screen_out{
+        color: #000;
+        font-size: 13px;
+        font-family: Arial,sans-serif;
+        letter-spacing: 0;
+        overflow: hidden;
+        position: absolute;
+        width: 0;
+        height: 0;
+        line-height: 0;
+        text-indent: -9999px;
+    }
+    & .txt_len{
+        color: #000;
+        font-size: 13px;
+        font-family: Arial,sans-serif;
+        line-height: 15px;
+        letter-spacing: 0;
+    }
+    & .num_total{
+        font-size: 13px;
+        font-family: Arial,sans-serif;
+        line-height: 15px;
+        letter-spacing: 0;
+        color: #888;
+    }
+    & .btn_enroll{
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+        vertical-align: middle;
+        border: 0 none;
+        cursor: pointer;
+        font-family: Apple SD Gothic Neo,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0;
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        width: 78px;
+        height: 42px;
+        color: #fff;
+        background: #3396ff;
+        padding-bottom: 0;
+        line-height: 44px;
+    }
+    & .starform{
+        width: 180px;
+    }
+}
+
+
+
+
